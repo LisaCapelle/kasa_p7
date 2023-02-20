@@ -1,0 +1,49 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    font-size: 1.5em;
+}
+.Header__logo-wrap {
+    flex-basis: 16%;
+}
+
+.Header__logo {
+    width: 100%;
+}
+
+.Header__nav {
+    display: flex;
+    gap:42px;
+    color: #FF6060;
+}
+
+.activeLink {
+    border-bottom: 1px solid #FF6060;
+}
+
+@media screen and (max-width: 768px) {
+    .Header {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .Header {
+        font-size: 1em;
+    }
+
+    .Header__logo-wrap {
+        flex-basis: 45%;
+    }
+
+    .Header__logo {
+        width: 90%;
+    }
+
+    .Header__nav {
+        gap:20px;
+    }
+}
