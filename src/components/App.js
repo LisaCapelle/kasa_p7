@@ -11,8 +11,10 @@ import Error from "../pages/Error";
 
 function App() {
 
+  // 
   const [apartmentList, setApartmentList] = useState([])
 
+  //
   useEffect(()=>{
 
     fetch('http://localhost:3000/logements.json')
@@ -28,6 +30,7 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
+            {/* // */}
             <Route path="/" element={<Home apartmentList = {apartmentList}/>} />
             <Route path="/about" element={<About />} />
             <Route path="/detail/:id" element={<Detail />} />
