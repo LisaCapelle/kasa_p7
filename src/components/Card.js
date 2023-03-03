@@ -7,8 +7,10 @@ export default function Card(apartment) {
  
   return (
     <article className="Card">
-      <img className="Card__img" src={apartment.cover} alt="appearance of the apartment" />
-      <h2 className="Card__title" >{apartment.title}</h2>
+      {/* <img className="Card__img" src={apartment.cover} alt="appearance of the apartment" /> */}
+      <img className="Card__img" src="./about-banner.png" alt="appearance of the apartment" />
+      {/* <h2 className="Card__title" >{apartment.title}</h2> */}
+      <h2 className="Card__title" >TITLE</h2>
     </article>
   );
 }

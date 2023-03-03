@@ -2,8 +2,9 @@ import React from "react";
 
 import '../styles/Banner.css';
 
-//
+// 
 export default function Banner(props) {
+console.log(props);
 
   return (
     <section className="Banner">
