@@ -1,0 +1,68 @@
+.Caroussel {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    
+}
+
+.Caroussel__img-wrap {
+    width: 100%;
+    position: relative;
+    transition: 1s;
+    display: flex;
+}
+
+.Caroussel__img {
+    /* position: absolute; */
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius:10px;
+}
+
+.Caroussel__chevron-left,
+.Caroussel__chevron-right {
+    position: absolute;
+    top:50%;
+    font-size: 3em;
+    color: #fff;
+    opacity: 0.8;
+    cursor: pointer;
+    
+}
+
+.Caroussel__chevron-left {
+    left:2%;
+}
+
+.Caroussel__chevron-right {
+    right:2%;
+}
+
+.Caroussel__pages {
+    position: absolute;
+    bottom: 0;
+    font-size: 1em;
+    left:50%;
+    bottom: 5%;
+    color: white;
+}
+
+
+/*
+dynamiser les slides
+*/
+
+.Slideshow:hover .SlideShow__slide{
+    transform: translate(-100%);
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
