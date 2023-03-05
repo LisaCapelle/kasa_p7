@@ -10,22 +10,11 @@ import About from "../pages/About";
 import Error from "../pages/Error";
 
 import apartmentList from '../logements.json';
-console.log(apartmentList);
+// console.log(apartmentList);
+
 function App() {
 
-  // 
-    // const [apartmentList, setApartmentList] = useState([])
-  console.log(apartmentList);
-  //
-  // useEffect(()=>{
-
-  //   // setApartmentList(apartmentList);
-  //   // fetch('http://localhost:3000/logements.json')
-  //   // .then(response => response.json())
-  //   // .then(data => setApartmentList(data))
-  //   // .catch(error => console.log(error))
-
-  // },[apartmentList])
+  // console.log(apartmentList);
   
     return (
       <div className="App">
@@ -33,9 +22,9 @@ function App() {
           <Header />
           <Routes>
             {/* // */}
-            <Route path="/" element={<Home apartmentList = {apartmentList}/>} />
+            <Route path="/" element={<Home apartmentList = {apartmentList} />} />
             <Route path="/about" element={<About />} />
-            <Route path="/detail/:id" element={<Detail />} />
+            <Route path="/detail/:id" element={<Detail apartmentList = {apartmentList} />} />
             <Route path="*" element={<Error />} />
           </Routes>
           <Footer />   
