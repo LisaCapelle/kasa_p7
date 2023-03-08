@@ -50,14 +50,6 @@
 }
 
 
-/*
-dynamiser les slides
-*/
-
-.Slideshow:hover .SlideShow__slide{
-    transform: translate(-100%);
-}
-
 
 @media screen and (max-width: 768px) {
 

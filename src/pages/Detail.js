@@ -21,14 +21,8 @@ export default function Detail({apartmentList}) {
       if(!apartment) {
         navigate('*');
       }
-      // else{
-
-     
-
-      // }
     })
       
-    //   console.log(apartment);
     const apartment = apartmentList.find(element => element.id === id);
     console.log(apartment);
     if (apartment !== undefined) {
@@ -68,8 +62,4 @@ export default function Detail({apartmentList}) {
         </main>
       );  
     }
-
-    
-
-      
 }
