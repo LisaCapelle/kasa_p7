@@ -1,8 +1,13 @@
 import React from "react";
 
-export default function Hashtags ({tags}){
+import '../styles/Hashtags.css';
+
+export default function Hashtags({ tags }) {
     console.log(tags);
-    return <div>
-        Hashtags
-    </div>
+
+    return (
+    <ul className="Hashtags">
+        {tags.map((city, index) => <li key = {index}>{city}</li>)}
+    </ul>
+  );
 }
