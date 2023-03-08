@@ -11,20 +11,21 @@
 }
 
 .Detail__location__title {
-    font-size: 1.7em;
+    font-size: 36px;
     /* margin-bottom: 0.8%; */
     margin: 0.8% 0;
     font-weight: 500;
 }
 
 .Detail__location__city {
-    font-size: 1em;
+    font-size: 18px;
     margin:1.5% 0;
 }
 
 .Detail__location__hashtags {
     display: flex;
-    padding:0;
+    /* padding:0; */
+    padding: 0 5px;
     margin-top: 3%;
     font-size:0.5em;
     gap:2em;
@@ -35,7 +36,7 @@
     background-color: #FF6060;
     padding: 0.5% 2%;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 14px;
     text-align: center;
     border-radius: 0.6em;
 }
