@@ -1,0 +1,27 @@
+.Rating {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+    gap: 0.3em;
+    /*  */
+    color: #FF6060;
+}
+
+.Stars-grey {
+    color: #E3E3E3;
+}
+
+/* */
+@media screen and (max-width: 768px) {
+    /* .Rating {
+        justify-content: flex-start;
+    } */
+}
+
+@media screen and (max-width: 576px) {
+    .Rating {
+        justify-content: flex-start;
+    }
+}
