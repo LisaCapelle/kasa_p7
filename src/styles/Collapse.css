@@ -19,21 +19,9 @@
 }
 
 .Collapse__title {
-    font-weight: 300;
-    margin: 3% 0;
+    font-weight: 400;
+    margin: 2% 0;
 }
-
-/* .Collapse__chevron-down {
-    display: none;
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.Collapse__chevron-up {
-    transition: 0.3s;
-} */
-
-
 
 @media screen and (max-width: 768px) {
 }
