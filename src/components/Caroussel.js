@@ -24,12 +24,14 @@ export default function Caroussel({pictures}) {
     }
   }
 
+  //rajouter condition pour masquer les flèches si 1 image + Caroussel__pages bullet point
+
   return (
     <section className="Caroussel">
       <div className="Caroussel__img-wrap"> 
         {<img  className="Caroussel__img" src={pictures[currentPage-1]} alt="caroussel" />}
       </div>
-      
+            
       <i className="fa-solid fa-chevron-left Caroussel__chevron-left" onClick = {previousSlide}></i>
       <i className="fa-solid fa-chevron-right Caroussel__chevron-right" onClick = {nextSlide}></i>
    

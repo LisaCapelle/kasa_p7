@@ -11,7 +11,7 @@ export default function Home({ apartmentList }) {
 // console.log(apartmentList);
   return (
     <main className='Home'>
-        <Banner img = { banner } page = {'home'} />
+        <Banner img = {banner} page = {'home'} />
         <section className="Home__card-list">
       
           { 
