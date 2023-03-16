@@ -16,13 +16,15 @@
     width: 100%;
 }
 
-
 .Footer__copyright {
     color:#fff;
-    font-size: 18px; 
+    font-size: 20px; 
 }
 
 @media screen and (max-width: 768px) {
+    .Footer__copyright {
+        font-size: 15px; 
+    }
 }
 
 @media screen and (max-width: 576px) {  
@@ -33,7 +35,6 @@
         width: 38%;
     }
     .Footer__copyright {
-        color:#fff;
-        font-size: 15px; 
+        font-size: 13px; 
     }
 }

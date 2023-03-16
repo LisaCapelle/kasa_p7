@@ -8,17 +8,14 @@ import Card from '../components/Card';
 import '../styles/Home.css';
 
 export default function Home({ apartmentList }) {
-// console.log(apartmentList);
-  return (
-    <main className='Home'>
-        <Banner img = {banner} page = {'home'} />
-        <section className="Home__card-list">
-      
-          { 
-            apartmentList.map( apartment => <Card key = {apartment.id} {...apartment}/> )
-          }
-          
-        </section>
-    </main>
-  )
+      return (
+            <main className="Home">
+                  <Banner img={banner} page={'home'} />
+                  <section className="Home__card-list">
+                        {apartmentList.map((apartment) => (
+                              <Card key={apartment.id} {...apartment} />
+                        ))}
+                  </section>
+            </main>
+      );
 }

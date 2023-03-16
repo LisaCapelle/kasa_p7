@@ -12,7 +12,6 @@
 
 .Detail__location__title {
     font-size: 36px;
-    /* margin-bottom: 0.8%; */
     margin: 0.8% 0;
     font-weight: 500;
 }
@@ -65,14 +64,12 @@
     justify-content: space-around;
 }
 
-
 .Detail__content-wrap {
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
     gap:5%;
 }
-
 
 .equipment-list {
     font-size: 0.8em;
@@ -81,12 +78,19 @@
     transition: 0.3s;
 }
 
-
 @media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 576px) {
 
+    .Detail__location__title {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .Detail__location__city {
+        font-size: 12px;
+    }
     .Detail__location-wrap {
         flex-direction: column;
     }

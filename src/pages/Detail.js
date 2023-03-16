@@ -24,7 +24,7 @@ export default function Detail({ apartmentList }) {
       });
 
       const apartment = apartmentList.find((element) => element.id === id);
-      // console.log(apartment);
+
       if (apartment !== undefined) {
             return (
                   <main className="Detail">

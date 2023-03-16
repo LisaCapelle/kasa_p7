@@ -1,9 +1,7 @@
 .Collapse {
     width: 75%;
-    /* background-color: #F6F6F6; */
-    border-radius: 0.5em;
+    border-radius: 0.2em;
     transition: 0.3s;
-    /* height: 100px; */
 }
 
 .Collapse__header {
@@ -38,8 +36,17 @@
     .Collapse {
         width: 100%; 
     }
-    /* */
+
     .Collapse__header {
         font-size: 13px;
+    }
+
+    .Collapse__title--big {
+        font-size: 12px;
+        padding: 1px 0;
+    }
+    .Collapse__title--small {
+        font-size: 12px;
+        padding: 1px 0;
     }
 }

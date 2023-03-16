@@ -7,7 +7,6 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    /* margin-top: 1%; */
     gap: 2em;
 }
 
@@ -22,6 +21,9 @@
 }
 
 @media screen and (max-width: 576px) {
+    .About__company-values {
+        gap: 1em;
+    }
     .About__content {
         width: 100%;
     }

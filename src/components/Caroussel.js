@@ -22,8 +22,6 @@ export default function Caroussel({ pictures }) {
             }
       };
 
-      //rajouter condition pour masquer les flèches si 1 image + Caroussel__pages bullet point
-
       return (
             <section className="Caroussel">
                   <div className="Caroussel__img-wrap">

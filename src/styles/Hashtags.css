@@ -11,15 +11,18 @@
     padding: 3px 20px;
     color: #fff;
     text-align: center;
-    border-radius: 0.9em;
+    border-radius: 5px;
 }
 
-/* @media screen and (max-width: 768px) {
-} */
+@media screen and (max-width: 768px) {
+}
 
 @media screen and (max-width: 576px) {
+    .Hashtags {
+        gap:3%;
+    }
     .Hashtags li {
-        padding: 0.5% 1%;
-        font-size: 11px;
+        padding: 3px 3%;
+        font-size: 10px;
     }
 }
