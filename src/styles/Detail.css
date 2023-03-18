@@ -23,7 +23,6 @@
 
 .Detail__location__hashtags {
     display: flex;
-    /* padding:0; */
     padding: 0 5px;
     margin-top: 3%;
     font-size:0.5em;
@@ -79,6 +78,27 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .Detail__location__title {
+        width: 80%;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .Detail__evaluation {
+        flex-direction:row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+    }
+    .Detail__location-wrap {
+        flex-direction:column;
+    }
+    .Detail__location__hashtags li {
+        padding: 0.5% 1%;
+    }
+    .host__name {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 576px) {
