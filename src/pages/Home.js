@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useEffect, useState } from 'react';
 import Banner from '../components/Banner';
 import banner from '../assets/images/MaskGroup.png';
 
